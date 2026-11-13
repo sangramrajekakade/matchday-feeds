@@ -1,0 +1,656 @@
+[
+ {
+  "q": "Which country won the first FIFA World Cup in 1930?",
+  "options": [
+   "Uruguay",
+   "Argentina",
+   "Brazil",
+   "Italy"
+  ],
+  "answer": 0,
+  "why": "Uruguay hosted and won it, beating Argentina 4–2 in the final."
+ },
+ {
+  "q": "Who won the 2022 FIFA World Cup in Qatar?",
+  "options": [
+   "France",
+   "Argentina",
+   "Croatia",
+   "Brazil"
+  ],
+  "answer": 1,
+  "why": "Argentina beat France on penalties after a 3–3 draw."
+ },
+ {
+  "q": "Which nation has won the most men's World Cups?",
+  "options": [
+   "Germany",
+   "Italy",
+   "Brazil",
+   "Argentina"
+  ],
+  "answer": 2,
+  "why": "Brazil have five titles: 1958, 1962, 1970, 1994 and 2002."
+ },
+ {
+  "q": "How many players does each team have on the pitch at kick-off?",
+  "options": [
+   "10",
+   "11",
+   "12",
+   "9"
+  ],
+  "answer": 1,
+  "why": "Eleven per side, including the goalkeeper."
+ },
+ {
+  "q": "How long is a regulation football match, excluding stoppage time?",
+  "options": [
+   "80 minutes",
+   "90 minutes",
+   "100 minutes",
+   "120 minutes"
+  ],
+  "answer": 1,
+  "why": "Two halves of 45 minutes."
+ },
+ {
+  "q": "Which club has won the most European Cup / Champions League titles?",
+  "options": [
+   "AC Milan",
+   "Bayern Munich",
+   "Liverpool",
+   "Real Madrid"
+  ],
+  "answer": 3,
+  "why": "Real Madrid are the record winners by a distance."
+ },
+ {
+  "q": "In which year was the Premier League's first season?",
+  "options": [
+   "1988–89",
+   "1992–93",
+   "1995–96",
+   "1990–91"
+  ],
+  "answer": 1,
+  "why": "The Premier League began in August 1992."
+ },
+ {
+  "q": "Which team went the whole 2003–04 Premier League season unbeaten?",
+  "options": [
+   "Manchester United",
+   "Chelsea",
+   "Arsenal",
+   "Liverpool"
+  ],
+  "answer": 2,
+  "why": "Arsenal's 'Invincibles' went 38 games unbeaten."
+ },
+ {
+  "q": "What is the distance of a penalty spot from the goal line?",
+  "options": [
+   "10 yards",
+   "11 metres",
+   "12 yards",
+   "9 metres"
+  ],
+  "answer": 2,
+  "why": "12 yards, roughly 11 metres."
+ },
+ {
+  "q": "Which country hosted the 2014 World Cup?",
+  "options": [
+   "South Africa",
+   "Russia",
+   "Brazil",
+   "Germany"
+  ],
+  "answer": 2,
+  "why": "Brazil hosted; Germany won it."
+ },
+ {
+  "q": "Who won the 2014 World Cup?",
+  "options": [
+   "Argentina",
+   "Netherlands",
+   "Germany",
+   "Spain"
+  ],
+  "answer": 2,
+  "why": "Germany beat Argentina 1–0 after extra time in the final."
+ },
+ {
+  "q": "Which country won Euro 2016?",
+  "options": [
+   "France",
+   "Portugal",
+   "Germany",
+   "Wales"
+  ],
+  "answer": 1,
+  "why": "Portugal beat hosts France 1–0 after extra time."
+ },
+ {
+  "q": "Which country won the 2010 World Cup?",
+  "options": [
+   "Netherlands",
+   "Spain",
+   "Germany",
+   "Italy"
+  ],
+  "answer": 1,
+  "why": "Spain beat the Netherlands 1–0 in Johannesburg."
+ },
+ {
+  "q": "Which famous stadium is home to FC Barcelona?",
+  "options": [
+   "Santiago Bernabéu",
+   "Camp Nou",
+   "Mestalla",
+   "Wanda Metropolitano"
+  ],
+  "answer": 1,
+  "why": "Camp Nou, Barcelona's home since 1957."
+ },
+ {
+  "q": "Which club plays its home games at San Siro along with AC Milan?",
+  "options": [
+   "Juventus",
+   "Inter",
+   "Napoli",
+   "Lazio"
+  ],
+  "answer": 1,
+  "why": "Inter and Milan share the stadium."
+ },
+ {
+  "q": "What colour card means a player is sent off?",
+  "options": [
+   "Yellow",
+   "Red",
+   "Blue",
+   "Green"
+  ],
+  "answer": 1,
+  "why": "A red card means dismissal."
+ },
+ {
+  "q": "How many substitutions per team are normally allowed in a standard 90-minute league match today?",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 2,
+  "why": "Five, made in a limited number of stoppages."
+ },
+ {
+  "q": "Which nation won the first Women's World Cup in 1991?",
+  "options": [
+   "Norway",
+   "Germany",
+   "USA",
+   "Sweden"
+  ],
+  "answer": 2,
+  "why": "The USA beat Norway 2–1 in the final in China."
+ },
+ {
+  "q": "Which country won the 2023 Women's World Cup?",
+  "options": [
+   "England",
+   "Spain",
+   "USA",
+   "Sweden"
+  ],
+  "answer": 1,
+  "why": "Spain beat England 1–0 in Sydney."
+ },
+ {
+  "q": "Which country won the women's Euro 2022?",
+  "options": [
+   "Germany",
+   "England",
+   "Netherlands",
+   "France"
+  ],
+  "answer": 1,
+  "why": "England beat Germany 2–1 after extra time at Wembley."
+ },
+ {
+  "q": "In which city is the Allianz Arena?",
+  "options": [
+   "Berlin",
+   "Munich",
+   "Dortmund",
+   "Hamburg"
+  ],
+  "answer": 1,
+  "why": "It is Bayern Munich's home."
+ },
+ {
+  "q": "What is the nickname of the derby between Real Madrid and Barcelona?",
+  "options": [
+   "Derby della Madonnina",
+   "El Clásico",
+   "Der Klassiker",
+   "Le Classique"
+  ],
+  "answer": 1,
+  "why": "El Clásico."
+ },
+ {
+  "q": "'Der Klassiker' is the rivalry between Bayern Munich and which club?",
+  "options": [
+   "Schalke",
+   "Borussia Dortmund",
+   "Hamburg",
+   "Leverkusen"
+  ],
+  "answer": 1,
+  "why": "Bayern v Dortmund."
+ },
+ {
+  "q": "Which club is nicknamed 'The Old Lady'?",
+  "options": [
+   "AC Milan",
+   "Juventus",
+   "Roma",
+   "Torino"
+  ],
+  "answer": 1,
+  "why": "Juventus — 'La Vecchia Signora'."
+ },
+ {
+  "q": "Which English club is nicknamed 'The Toffees'?",
+  "options": [
+   "Everton",
+   "Fulham",
+   "Burnley",
+   "Wolves"
+  ],
+  "answer": 0,
+  "why": "Everton."
+ },
+ {
+  "q": "Which English club is nicknamed 'The Magpies'?",
+  "options": [
+   "West Brom",
+   "Newcastle United",
+   "Notts County",
+   "Both Newcastle and Notts County"
+  ],
+  "answer": 3,
+  "why": "Both Newcastle United and Notts County are known as the Magpies."
+ },
+ {
+  "q": "What does VAR stand for?",
+  "options": [
+   "Video Assistant Referee",
+   "Video Action Review",
+   "Virtual Assistant Referee",
+   "Video Analysis Room"
+  ],
+  "answer": 0,
+  "why": "Video Assistant Referee."
+ },
+ {
+  "q": "Which World Cup was the first to use VAR?",
+  "options": [
+   "2014",
+   "2018",
+   "2022",
+   "2010"
+  ],
+  "answer": 1,
+  "why": "VAR debuted at the 2018 World Cup in Russia."
+ },
+ {
+  "q": "How many teams will play at the 2026 World Cup?",
+  "options": [
+   "32",
+   "40",
+   "48",
+   "64"
+  ],
+  "answer": 2,
+  "why": "The 2026 tournament expands to 48 teams."
+ },
+ {
+  "q": "Which three countries co-host the 2026 World Cup?",
+  "options": [
+   "USA, Canada, Mexico",
+   "USA, Mexico, Costa Rica",
+   "Canada, USA, Jamaica",
+   "Mexico, USA, Panama"
+  ],
+  "answer": 0,
+  "why": "USA, Canada and Mexico."
+ },
+ {
+  "q": "Which country won Euro 2020 (played in 2021)?",
+  "options": [
+   "England",
+   "Italy",
+   "Spain",
+   "Denmark"
+  ],
+  "answer": 1,
+  "why": "Italy beat England on penalties at Wembley."
+ },
+ {
+  "q": "Which country won Euro 2024?",
+  "options": [
+   "England",
+   "Spain",
+   "France",
+   "Germany"
+  ],
+  "answer": 1,
+  "why": "Spain beat England 2–1 in Berlin."
+ },
+ {
+  "q": "How wide is a regulation goal?",
+  "options": [
+   "7.32 m (8 yards)",
+   "6.5 m",
+   "8 m",
+   "7 m"
+  ],
+  "answer": 0,
+  "why": "8 yards wide, 8 feet high."
+ },
+ {
+  "q": "How high is a regulation goal?",
+  "options": [
+   "2 m",
+   "2.44 m (8 feet)",
+   "2.5 m",
+   "3 m"
+  ],
+  "answer": 1,
+  "why": "8 feet."
+ },
+ {
+  "q": "What is it called when a player scores three goals in one match?",
+  "options": [
+   "Treble",
+   "Hat-trick",
+   "Triple",
+   "Brace"
+  ],
+  "answer": 1,
+  "why": "A hat-trick; two goals is a brace."
+ },
+ {
+  "q": "Two goals by one player in a match is called a…",
+  "options": [
+   "Double",
+   "Pair",
+   "Brace",
+   "Duo"
+  ],
+  "answer": 2,
+  "why": "A brace."
+ },
+ {
+  "q": "Which competition is known as the 'Copa'?",
+  "options": [
+   "Copa América",
+   "Copa Libertadores",
+   "Both, depending on context",
+   "Neither"
+  ],
+  "answer": 2,
+  "why": "Copa América is the national-team tournament; Copa Libertadores is for clubs."
+ },
+ {
+  "q": "Which continent's championship is the AFCON?",
+  "options": [
+   "Asia",
+   "Africa",
+   "Oceania",
+   "Americas"
+  ],
+  "answer": 1,
+  "why": "Africa Cup of Nations."
+ },
+ {
+  "q": "Which country's top league is called the Eredivisie?",
+  "options": [
+   "Belgium",
+   "Netherlands",
+   "Denmark",
+   "Portugal"
+  ],
+  "answer": 1,
+  "why": "The Netherlands."
+ },
+ {
+  "q": "Which country's top league is the Primeira Liga?",
+  "options": [
+   "Spain",
+   "Brazil",
+   "Portugal",
+   "Argentina"
+  ],
+  "answer": 2,
+  "why": "Portugal."
+ },
+ {
+  "q": "The Indian Super League (ISL) began in which year?",
+  "options": [
+   "2010",
+   "2014",
+   "2017",
+   "2019"
+  ],
+  "answer": 1,
+  "why": "The ISL's first season was 2014."
+ },
+ {
+  "q": "Which body governs football in Asia?",
+  "options": [
+   "CAF",
+   "UEFA",
+   "AFC",
+   "CONCACAF"
+  ],
+  "answer": 2,
+  "why": "The Asian Football Confederation."
+ },
+ {
+  "q": "What is the offside rule's key reference point at the moment the ball is played?",
+  "options": [
+   "The ball and second-last opponent",
+   "The halfway line only",
+   "The goalkeeper only",
+   "The penalty spot"
+  ],
+  "answer": 0,
+  "why": "An attacker is offside if nearer the goal line than both the ball and the second-last opponent (in the opponents' half)."
+ },
+ {
+  "q": "Can a player be offside directly from a throw-in?",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "answer": 1,
+  "why": "There is no offside from a throw-in, goal kick or corner."
+ },
+ {
+  "q": "Can you score directly from a throw-in?",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "answer": 1,
+  "why": "A goal cannot be scored directly from a throw-in."
+ },
+ {
+  "q": "Can a goal be scored directly from a corner kick?",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "answer": 0,
+  "why": "Yes — an 'Olimpico'."
+ },
+ {
+  "q": "What is a 'clean sheet'?",
+  "options": [
+   "A match with no fouls",
+   "A goalkeeper/team conceding no goals",
+   "A team with no bookings",
+   "An unused substitute"
+  ],
+  "answer": 1,
+  "why": "Keeping the opposition scoreless."
+ },
+ {
+  "q": "Which position wears a different-coloured kit from teammates?",
+  "options": [
+   "Captain",
+   "Goalkeeper",
+   "Defenders",
+   "Substitutes"
+  ],
+  "answer": 1,
+  "why": "The goalkeeper."
+ },
+ {
+  "q": "What is a 'panenka'?",
+  "options": [
+   "A chipped penalty down the middle",
+   "A volley from a corner",
+   "A long throw",
+   "A back-heel goal"
+  ],
+  "answer": 0,
+  "why": "Named after Antonín Panenka's Euro 1976 final penalty."
+ },
+ {
+  "q": "Antonín Panenka played for which national team?",
+  "options": [
+   "Poland",
+   "Czechoslovakia",
+   "Hungary",
+   "Austria"
+  ],
+  "answer": 1,
+  "why": "Czechoslovakia, Euro 1976 winners."
+ },
+ {
+  "q": "Which country won Euro 1976?",
+  "options": [
+   "West Germany",
+   "Czechoslovakia",
+   "Netherlands",
+   "Yugoslavia"
+  ],
+  "answer": 1,
+  "why": "Czechoslovakia beat West Germany on penalties."
+ },
+ {
+  "q": "Which club won the first Premier League title in 1992–93?",
+  "options": [
+   "Blackburn Rovers",
+   "Manchester United",
+   "Arsenal",
+   "Leeds United"
+  ],
+  "answer": 1,
+  "why": "Manchester United."
+ },
+ {
+  "q": "Which club won the Premier League in 2015–16 at odds of 5000/1?",
+  "options": [
+   "Leicester City",
+   "Tottenham",
+   "West Ham",
+   "Southampton"
+  ],
+  "answer": 0,
+  "why": "Leicester City."
+ },
+ {
+  "q": "Which is the oldest international football fixture?",
+  "options": [
+   "England v Scotland",
+   "Brazil v Argentina",
+   "Germany v Netherlands",
+   "Spain v Portugal"
+  ],
+  "answer": 0,
+  "why": "England v Scotland, first played in 1872."
+ },
+ {
+  "q": "How many points is a league win worth in most leagues today?",
+  "options": [
+   "2",
+   "3",
+   "1",
+   "4"
+  ],
+  "answer": 1,
+  "why": "Three points for a win, one for a draw."
+ },
+ {
+  "q": "What happens in a knockout match level after extra time?",
+  "options": [
+   "Replay",
+   "Penalty shoot-out",
+   "Coin toss",
+   "Golden goal"
+  ],
+  "answer": 1,
+  "why": "A penalty shoot-out decides it."
+ },
+ {
+  "q": "How long is standard extra time in total?",
+  "options": [
+   "20 minutes",
+   "30 minutes",
+   "15 minutes",
+   "40 minutes"
+  ],
+  "answer": 1,
+  "why": "Two halves of 15 minutes."
+ },
+ {
+  "q": "In which country is the club Boca Juniors?",
+  "options": [
+   "Uruguay",
+   "Argentina",
+   "Chile",
+   "Brazil"
+  ],
+  "answer": 1,
+  "why": "Buenos Aires, Argentina."
+ },
+ {
+  "q": "'O Clássico' in Portugal is between Porto and which club?",
+  "options": [
+   "Sporting CP",
+   "Benfica",
+   "Braga",
+   "Vitória"
+  ],
+  "answer": 1,
+  "why": "Porto v Benfica."
+ },
+ {
+  "q": "Which country has won the most Copa América titles?",
+  "options": [
+   "Brazil",
+   "Argentina",
+   "Uruguay",
+   "Chile"
+  ],
+  "answer": 1,
+  "why": "Argentina reached 16 titles with their 2024 win, one more than Uruguay."
+ }
+]

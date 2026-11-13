@@ -1,0 +1,183 @@
+[
+ {
+  "q": "Who's the greatest footballer of all time?",
+  "options": [
+   "Messi",
+   "Ronaldo",
+   "Pelé",
+   "Maradona"
+  ]
+ },
+ {
+  "q": "Best league in the world right now?",
+  "options": [
+   "Premier League",
+   "La Liga",
+   "Serie A",
+   "Bundesliga"
+  ]
+ },
+ {
+  "q": "Should VAR stay?",
+  "options": [
+   "Keep it as it is",
+   "Keep it, but faster",
+   "Only for goals & reds",
+   "Scrap it"
+  ]
+ },
+ {
+  "q": "Best formation for modern football?",
+  "options": [
+   "4-3-3",
+   "4-2-3-1",
+   "3-4-3",
+   "4-4-2"
+  ]
+ },
+ {
+  "q": "Which matters more: a league title or the Champions League?",
+  "options": [
+   "League title",
+   "Champions League"
+  ]
+ },
+ {
+  "q": "Who wins the Premier League this season?"
+ },
+ {
+  "q": "Most underrated player in Europe right now?"
+ },
+ {
+  "q": "Club football or international football — which do you care about more?",
+  "options": [
+   "Club",
+   "International",
+   "Both equally"
+  ]
+ },
+ {
+  "q": "Should the World Cup have 48 teams?",
+  "options": [
+   "Yes, more nations",
+   "No, quality drops",
+   "Not sure yet"
+  ]
+ },
+ {
+  "q": "Best ever Champions League final?"
+ },
+ {
+  "q": "Who is the best goalkeeper in the world right now?"
+ },
+ {
+  "q": "Would you rather win the treble once or the league five times in a row?",
+  "options": [
+   "Treble once",
+   "Five in a row"
+  ]
+ },
+ {
+  "q": "Best kit your club has ever had?"
+ },
+ {
+  "q": "Is a 'false nine' still a good idea?",
+  "options": [
+   "Yes",
+   "No",
+   "Depends on the player"
+  ]
+ },
+ {
+  "q": "Which young player becomes a Ballon d'Or winner first?"
+ },
+ {
+  "q": "Should there be a winter break in every top league?",
+  "options": [
+   "Yes",
+   "No"
+  ]
+ },
+ {
+  "q": "Best derby atmosphere in world football?",
+  "options": [
+   "El Clásico",
+   "Derby della Madonnina",
+   "Old Firm",
+   "Superclásico"
+  ]
+ },
+ {
+  "q": "Should clubs be allowed bigger squads given the fixture load?",
+  "options": [
+   "Yes",
+   "No"
+  ]
+ },
+ {
+  "q": "Pressing football or possession football — what wins more?",
+  "options": [
+   "Pressing",
+   "Possession",
+   "Counter-attack"
+  ]
+ },
+ {
+  "q": "Which manager would you pick to build a team from scratch?"
+ },
+ {
+  "q": "Is the Club World Cup worth it?",
+  "options": [
+   "Yes",
+   "No",
+   "Undecided"
+  ]
+ },
+ {
+  "q": "Should women's and men's prize money at major tournaments be equal?",
+  "options": [
+   "Yes",
+   "Over time",
+   "No"
+  ]
+ },
+ {
+  "q": "Your all-time combined XI from one club — who makes it?"
+ },
+ {
+  "q": "Best football commentary moment ever?"
+ },
+ {
+  "q": "Should goal-line technology extend to offsides with automatic calls?",
+  "options": [
+   "Yes",
+   "Already enough",
+   "No"
+  ]
+ },
+ {
+  "q": "Who has the best academy in Europe?"
+ },
+ {
+  "q": "Best player in Indian football right now?"
+ },
+ {
+  "q": "Late kick-offs for Indian fans: worth staying up for?",
+  "options": [
+   "Always",
+   "Big games only",
+   "Highlights next day"
+  ]
+ },
+ {
+  "q": "Stadium experience or watching with friends at home?",
+  "options": [
+   "Stadium",
+   "At home",
+   "Pub/café"
+  ]
+ },
+ {
+  "q": "Which transfer this season will look best in a year?"
+ }
+]
