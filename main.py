@@ -28,6 +28,8 @@ def main(names):
     for n in [j for name in names for j in GROUPS.get(name, [name])]:
         try:
             print(JOBS[n](s))
+        except discord.NotConfigured as e:          # secret not added yet: skip quietly, don't fail the run
+            print(f"{n}: skipped — {e}")
         except Exception as e:
             traceback.print_exc()
             failed.append(f"`{n}`: {type(e).__name__}: {str(e)[:300]}")
