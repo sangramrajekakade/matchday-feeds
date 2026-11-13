@@ -70,6 +70,8 @@ def morning(s):
             name, persona, colour, _ = config.COMPETITIONS.get(c, (c, "world", config.GREEN, 0))
             by_persona[persona].append((name, colour, lst))
         for persona, groups in by_persona.items():
+            if not discord.has_own(persona):          # no own channel yet: the digest above already covers it
+                continue
             if len(groups) == 1:
                 name, colour, lst = groups[0]
                 e = discord.embed(f"{name} today", "\n".join(fixture_line(m) for m in lst), colour)
@@ -129,7 +131,7 @@ def tick(s):
             discord.send(persona, embeds=[discord.embed(title, f"{name} · full time", colour,
                                                         image="attachment://result.png")],
                          files=[("result.png", cards.result_card(m, name))])
-        else:
+        elif discord.has_own(persona):                 # small results: only in the league's own channel
             discord.send(persona, embeds=[discord.embed(title, name, colour)], silent=True)
         if is_big(m):
             discord.send("ratings", content=f"⭐ **Player ratings open:** {api.team(m, 'home')} {hs}–{as_} "
