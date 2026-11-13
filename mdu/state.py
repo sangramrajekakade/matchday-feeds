@@ -23,7 +23,13 @@ def save(s):
         json.dump(s, f, indent=0, sort_keys=True)
 
 
+FORCE_BUCKETS = {"morning", "weekly", "weekend", "quiz", "qotd"}
+
+
 def seen(s, bucket, key):
+    """On-demand runs (FORCE=1) re-post daily/weekly items; results, reminders and news are never duplicated."""
+    if os.environ.get("FORCE") == "1" and bucket in FORCE_BUCKETS:
+        return False
     return str(key) in s.get(bucket, {})
 
 
