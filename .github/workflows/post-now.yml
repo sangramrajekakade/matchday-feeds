@@ -1,0 +1,68 @@
+name: Post now (on demand)
+
+on:
+  workflow_dispatch:
+    inputs:
+      what:
+        description: "What should be posted right now?"
+        type: choice
+        default: "news"
+        options:
+          - "news"
+          - "tick"
+          - "morning"
+          - "weekly"
+          - "weekend"
+          - "quiz"
+          - "qotd"
+          - "tick news"
+          - "all-daily"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FORCE: "1"
+      FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+      ASSET_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/assets
+      WH_HQ: ${{ secrets.WH_HQ }}
+      WH_NEWS: ${{ secrets.WH_NEWS }}
+      WH_MATCHDAY: ${{ secrets.WH_MATCHDAY }}
+      WH_DAILY: ${{ secrets.WH_DAILY }}
+      WH_TRANSFERS: ${{ secrets.WH_TRANSFERS }}
+      WH_PREDICTIONS: ${{ secrets.WH_PREDICTIONS }}
+      WH_RATINGS: ${{ secrets.WH_RATINGS }}
+      WH_LEADERBOARD: ${{ secrets.WH_LEADERBOARD }}
+      WH_PL: ${{ secrets.WH_PL }}
+      WH_LALIGA: ${{ secrets.WH_LALIGA }}
+      WH_SERIEA: ${{ secrets.WH_SERIEA }}
+      WH_UCL: ${{ secrets.WH_UCL }}
+      WH_WOMENS: ${{ secrets.WH_WOMENS }}
+      WH_INTL: ${{ secrets.WH_INTL }}
+      WH_OTHER: ${{ secrets.WH_OTHER }}
+      WH_QUIZ: ${{ secrets.WH_QUIZ }}
+      WH_MODLOG: ${{ secrets.WH_MODLOG }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Post
+        run: python main.py ${{ inputs.what }}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "matchday-feeds"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json || true
+          git diff --cached --quiet || (git commit -m "state: ${{ inputs.what }} [skip ci]" && git pull --rebase -X ours && git push)
