@@ -39,6 +39,9 @@ def main(names):
             failed.append(f"`{n}`: {type(e).__name__}: {str(e)[:300]}")
         finally:
             state.save(s)                       # save progress even if a later job fails
+    if os.environ.get("GITHUB_ACTIONS") == "true":  # stage the data file so the workflow's save step commits it
+        import subprocess
+        subprocess.run(["git", "add", snapshot.PATH], check=False)
     if failed:
         try:
             discord.send("monitor", embeds=[discord.embed("⚠️ Feed job failed", "\n".join(failed), 0xD94B42)],
