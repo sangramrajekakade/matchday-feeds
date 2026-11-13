@@ -1,0 +1,9 @@
+# Cloudflare Worker that answers the MATCHDAY UNITED slash commands (/scores /table /news ...)
+name = "matchday-commands"
+main = "commands/worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[vars]
+# Discord app PUBLIC key (Developer Portal → Matchday Bot → General Information). Public, not a secret.
+DISCORD_PUBLIC_KEY = "a379fe01706629d36ba7363da22bd3f2ae021811d078c49f7cf481e53408d342"
