@@ -8,7 +8,7 @@ if os.path.exists(".env"):                       # local runs: read KEY=value li
         if k and not k.startswith("#") and v:
             os.environ.setdefault(k, v.strip().strip('"'))
 from mdu import discord, state  # noqa: E402
-from jobs import community, football  # noqa: E402
+from jobs import community, football, snapshot  # noqa: E402
 
 JOBS = {
     "morning": football.morning,     # 08:00 IST  fixtures digest + league desks + prediction poll
@@ -18,6 +18,7 @@ JOBS = {
     "news": community.news,          # hourly     RSS → news / transfers / women's football
     "quiz": community.quiz,          # daily      quiz poll + spoiler answer
     "qotd": community.talking_point, # daily      question of the day in #general-football
+    "snapshot": snapshot.snapshot,   # every run  refresh data/snapshot.json for the /commands
 }
 GROUPS = {"all-daily": ["morning", "quiz", "qotd"]}
 
@@ -25,7 +26,10 @@ GROUPS = {"all-daily": ["morning", "quiz", "qotd"]}
 def main(names):
     s = state.load()
     failed = []
-    for n in [j for name in names for j in GROUPS.get(name, [name])]:
+    todo = [j for name in names for j in GROUPS.get(name, [name])]
+    if "snapshot" not in todo:
+        todo.append("snapshot")                    # keep the /commands data fresh on every run
+    for n in todo:
         try:
             print(JOBS[n](s))
         except discord.NotConfigured as e:          # secret not added yet: skip quietly, don't fail the run
