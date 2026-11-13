@@ -15,7 +15,8 @@ def _get(path, **params):
             return json.load(f)
     token = os.environ.get("FOOTBALL_DATA_TOKEN")
     if not token:
-        raise RuntimeError("FOOTBALL_DATA_TOKEN is not set — get a free key at football-data.org/client/register")
+        from .discord import NotConfigured
+        raise NotConfigured("FOOTBALL_DATA_TOKEN is not set — get a free key at football-data.org/client/register")
     wait = 6.5 - (time.time() - _last[0])           # ≤ 10 calls/min
     if wait > 0:
         time.sleep(wait)

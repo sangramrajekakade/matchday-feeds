@@ -7,8 +7,11 @@ DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"
 DRY_LOG = []          # filled in dry-run mode so tests can inspect what would be sent
 
 
-class WebhookMissing(Exception):
-    pass
+class NotConfigured(Exception):
+    """A secret (webhook URL or API key) has not been added yet — the job is skipped, not failed."""
+
+
+WebhookMissing = NotConfigured
 
 
 def _avatar(file):
