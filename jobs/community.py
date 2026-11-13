@@ -29,7 +29,7 @@ def _norm_title(t):
 # ── NEWS: RSS → #football-news, #transfer-hq, #womens-football ────────────────────────────────────
 def news(s, feeds=None):
     feeds = feeds or config.FEEDS
-    first_run = "news" not in s
+    first_run = "news" not in s and os.environ.get("FORCE") != "1"   # on-demand: post straight away
     s.setdefault("news", {})
     posted = {}
     cutoff = time.time() - config.NEWS_MAX_AGE_HOURS * 3600
