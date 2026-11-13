@@ -14,6 +14,11 @@ class NotConfigured(Exception):
 WebhookMissing = NotConfigured
 
 
+def has_own(persona):
+    """True when this persona's own channel webhook is configured (or in dry-run tests)."""
+    return DRY_RUN or bool(os.environ.get(config.PERSONAS[persona][0]))
+
+
 def _avatar(file):
     return f"{config.ASSET_BASE}/avatars/{file}" if config.ASSET_BASE else None
 
@@ -47,6 +52,12 @@ def send(persona, content=None, embeds=None, poll=None, files=None, silent=False
         return {"id": "dry"}
 
     url = os.environ.get(env)
+    if not url:                                   # channel key not added yet → post via a fallback channel
+        for fb in config.FALLBACK.get(persona, []):
+            url = os.environ.get(fb)
+            if url:
+                print(f"{persona}: {env} not set, posting via {fb}")
+                break
     if not url:
         raise WebhookMissing(f"{env} is not set — add it as a GitHub secret")
     for attempt in range(4):

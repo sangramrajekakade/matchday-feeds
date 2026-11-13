@@ -80,3 +80,14 @@ NEWS_MAX_AGE_HOURS = 12
 
 KICKOFF_REMINDER_MIN = 75     # remind about big matches starting within this many minutes
 POLL_HOURS = 24               # auto prediction poll duration
+
+# Until a channel's own webhook secret is added, its posts go to a channel that already works.
+# (Name and avatar stay the same, e.g. "Quiz Master" posting in #matchday-hub.) Add the real secret to move it.
+_MATCH = ["WH_MATCHDAY", "WH_NEWS"]
+_NEWSY = ["WH_NEWS", "WH_MATCHDAY"]
+FALLBACK = {
+    "predictions": _MATCH, "ratings": _MATCH, "table": _MATCH, "pl": _MATCH, "laliga": _MATCH, "seriea": _MATCH,
+    "ucl": _MATCH, "world": _MATCH, "intl": _MATCH, "quiz": _MATCH, "daily": _MATCH, "hq": _MATCH,
+    "transfers": [], "womens": [],          # would only repeat #football-news
+    "monitor": _MATCH, "matchday": ["WH_NEWS"], "news": ["WH_MATCHDAY"],
+}
