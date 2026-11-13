@@ -1,0 +1,74 @@
+name: MATCHDAY UNITED feeds
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 min: full-time results, kick-off reminders, news
+    - cron: "31 2 * * *"     # 08:01 IST daily: fixtures digest, prediction poll, quiz, question of the day
+    - cron: "13 3 * * 1"     # 08:43 IST Monday: league tables, top scorers, title races
+    - cron: "47 11 * * 5"    # 17:17 IST Friday: weekend big-games preview
+  workflow_dispatch:
+    inputs:
+      jobs:
+        description: "Jobs to run (morning tick weekly weekend news quiz qotd all-daily)"
+        default: "tick news"
+
+permissions:
+  contents: write            # to save data/state.json (what has already been posted)
+
+concurrency:
+  group: feeds
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+      ASSET_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/assets
+      WH_HQ: ${{ secrets.WH_HQ }}
+      WH_NEWS: ${{ secrets.WH_NEWS }}
+      WH_MATCHDAY: ${{ secrets.WH_MATCHDAY }}
+      WH_DAILY: ${{ secrets.WH_DAILY }}
+      WH_TRANSFERS: ${{ secrets.WH_TRANSFERS }}
+      WH_PREDICTIONS: ${{ secrets.WH_PREDICTIONS }}
+      WH_RATINGS: ${{ secrets.WH_RATINGS }}
+      WH_LEADERBOARD: ${{ secrets.WH_LEADERBOARD }}
+      WH_PL: ${{ secrets.WH_PL }}
+      WH_LALIGA: ${{ secrets.WH_LALIGA }}
+      WH_SERIEA: ${{ secrets.WH_SERIEA }}
+      WH_UCL: ${{ secrets.WH_UCL }}
+      WH_WOMENS: ${{ secrets.WH_WOMENS }}
+      WH_INTL: ${{ secrets.WH_INTL }}
+      WH_OTHER: ${{ secrets.WH_OTHER }}
+      WH_QUIZ: ${{ secrets.WH_QUIZ }}
+      WH_MODLOG: ${{ secrets.WH_MODLOG }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Pick jobs for this trigger
+        id: pick
+        run: |
+          case "${{ github.event.schedule }}" in
+            "31 2 * * *")  echo "jobs=all-daily" >> "$GITHUB_OUTPUT" ;;
+            "13 3 * * 1")  echo "jobs=weekly" >> "$GITHUB_OUTPUT" ;;
+            "47 11 * * 5") echo "jobs=weekend" >> "$GITHUB_OUTPUT" ;;
+            "")            echo "jobs=${{ github.event.inputs.jobs }}" >> "$GITHUB_OUTPUT" ;;
+            *)             echo "jobs=tick news" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Post
+        run: python main.py ${{ steps.pick.outputs.jobs }}
+
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "matchday-feeds"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json || true
+          git diff --cached --quiet || (git commit -m "state: ${{ steps.pick.outputs.jobs }} [skip ci]" && git pull --rebase -X ours && git push)
