@@ -1,4 +1,7 @@
 {
+"morning": {
+"2026-11-13": 1794586907.01668
+},
 "news": {
 "news:0a87dd4ac6f849cc": 1794580256.6420438,
 "news:0de3f5e3f2c1cc44": 1794580256.6419885,
@@ -40,5 +43,6 @@
 "transfers:t:fernandes rejects second man utd contract offer": 1794580257.386272,
 "womens:50ba34254bff7919": 1794580258.3077686,
 "womens:t:why chelsea and manchester citys wsl clash is not as seasondefining as you think": 1794580258.3077693
-}
+},
+"result": {}
 }
