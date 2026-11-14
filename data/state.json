@@ -1,6 +1,7 @@
 {
 "morning": {
-"2026-11-13": 1794588718.9010527
+"2026-11-13": 1794588718.9010527,
+"2026-11-14": 1794647788.2626798
 },
 "news": {
 "news:0a87dd4ac6f849cc": 1794580256.6420438,
@@ -96,8 +97,18 @@
 "news:t:tuchel to remind england players of antiracism protocols before game in spain": 1794604319.7950618,
 "news:t:why chelsea and manchester citys wsl clash is not as seasondefining as you think": 1794591991.3734374
 },
-"qotd_used": [],
-"quiz_used": [],
+"qotd": {
+"2026-11-14": 1794647792.7926152
+},
+"qotd_used": [
+23
+],
+"quiz": {
+"2026-11-14": 1794647791.2229717
+},
+"quiz_used": [
+48
+],
 "result": {},
 "weekly": {
 "2026-W46": 1794589651.4372747
