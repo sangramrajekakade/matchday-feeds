@@ -61,10 +61,12 @@
 "news:1101fde373118dc5": 1794670483.3423588,
 "news:11266bf5edec2977": 1794687950.7629263,
 "news:15243c14ffb39dd9": 1794620084.3933296,
+"news:159257532eeaf378": 1794701089.6575134,
 "news:27e00bdd479fa04a": 1794620079.609901,
 "news:2b4fd89b33ef82c6": 1794645432.1931229,
 "news:2edd4151abc0ff61": 1794604321.4444547,
 "news:3926513321edb666": 1794687955.1552222,
+"news:3a2d4c0f233214a3": 1794701091.138365,
 "news:3ab1cc931062ffbd": 1794620081.051672,
 "news:50ba34254bff7919": 1794591991.3734338,
 "news:54b8e443d89a4ad3": 1794589307.212524,
@@ -80,6 +82,8 @@
 "news:c52325f8b43f88a3": 1794620082.7426114,
 "news:c80145de03c0f2bc": 1794604322.9951668,
 "news:ca7dd4c2a3b07c0e": 1794670485.1653857,
+"news:d5249654c546b046": 1794701092.8454168,
+"news:d73a3a243b54fffa": 1794701094.351543,
 "news:e49351f9fbbfaf2b": 1794591989.8931234,
 "news:e9daf71e3d76bef9": 1794687953.626104,
 "news:edc07cd8e729fb2f": 1794645430.6910312,
@@ -88,6 +92,7 @@
 "news:t:chelsea v manchester city womens super league  live": 1794670488.5625615,
 "news:t:clinical norway dent wales nations league toptier hopes with victory in oslo": 1794687950.7629306,
 "news:t:de la fuente feels the strain as lamine yamal club v country debate rages in spa": 1794645433.54799,
+"news:t:devlin nets winner as ni top nations league group": 1794701089.6575189,
 "news:t:ferguson made up with first win as glentoran boss": 1794620082.7426145,
 "news:t:fitness obsessed  control freak  what can man utd expect from pochettino": 1794620081.0516753,
 "news:t:football daily": 1794589305.754727,
@@ -95,8 +100,10 @@
 "news:t:former stoke city manager thordarson dies aged 71": 1794670486.8551166,
 "news:t:goalkeeper involved in fatal collision gets 12game ban": 1794620079.6099067,
 "news:t:haaland helps norway to win over wales in nations league": 1794687952.188913,
+"news:t:hallgrimsson rues painful defeat for republic of ireland": 1794701091.138368,
 "news:t:here manchester united go again taking the two ronnies route to hiring a new bos": 1794687953.626107,
 "news:t:its a shootout  wales out to derail stuttering norway": 1794604322.99517,
+"news:t:liverpool put three past brighton to end winless run": 1794701092.8454201,
 "news:t:mauricio pochettino asked the us to believe in his project did he believe in it ": 1794670485.165543,
 "news:t:mauricio pochettino to manchester united and record breaker kane  football weekl": 1794591989.893128,
 "news:t:memories flood back  rochdale  york meet again after april drama": 1794589307.212527,
@@ -110,6 +117,7 @@
 "news:t:spain test will reveal if tuchel and england have learned world cup lessons": 1794687955.155225,
 "news:t:tearful pochettino on difficult decision to leave usa for man utd": 1794589303.0134642,
 "news:t:tearful pochettino says leaving usa for manchester united most difficult decisio": 1794589308.7086961,
+"news:t:the managers dream who has put ni one game from history": 1794701094.3515472,
 "news:t:tuchel to remind england players of antiracism protocols before game in spain": 1794604319.7950618,
 "news:t:why chelsea and manchester citys wsl clash is not as seasondefining as you think": 1794591991.3734374
 },
@@ -125,7 +133,9 @@
 "quiz_used": [
 48
 ],
-"result": {},
+"result": {
+"555085": 1794701084.8586183
+},
 "weekly": {
 "2026-W46": 1794589651.4372747
 }
