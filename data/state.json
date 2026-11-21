@@ -62,6 +62,7 @@
 "womens:t:why chelsea and manchester citys wsl clash is not as seasondefining as you think": 1794580258.3077693
 },
 "news_v2": {
+"news:02ea679ceeb77c55": 1795226324.5973017,
 "news:038e474fe2546b54": 1794773323.2328966,
 "news:0451c5b6bf02e17b": 1795146725.2095747,
 "news:046a5702b2f1f788": 1794645434.953822,
@@ -122,6 +123,7 @@
 "news:7ce78fea9ce07d25": 1795128863.5122209,
 "news:7e7bd98afa5c66b6": 1795128860.5388393,
 "news:800a098fcf1b5a9f": 1794773320.3694546,
+"news:8946f37038079d7b": 1795226318.7941394,
 "news:89a4355bf6944929": 1794964119.7336123,
 "news:8c10b523d66bbd8b": 1794589303.0134602,
 "news:8c940ce8948918cb": 1795146721.6596112,
@@ -149,6 +151,7 @@
 "news:c5ca946d525def02": 1795067877.9237137,
 "news:c80145de03c0f2bc": 1794604322.9951668,
 "news:ca7dd4c2a3b07c0e": 1794670485.1653857,
+"news:cadb60dbb6ebaaa9": 1795226321.1993723,
 "news:cba82a7354c9d320": 1795177863.388114,
 "news:ce637ff8d29112e6": 1794812550.9611607,
 "news:d2aabe26e903a52f": 1794991941.5558915,
@@ -170,6 +173,7 @@
 "news:f9ac1ffb91a5614a": 1794849398.551637,
 "news:fb265c9092fe7aa9": 1794964116.4691157,
 "news:fda09df5470f0c37": 1794991938.6192677,
+"news:ffd170c6286c3f68": 1795226322.5677435,
 "news:t:60 minutes of perfection 30 minutes of chaos  an england win for the ages": 1794787836.4136496,
 "news:t:72 the efl podcast": 1795024070.4015615,
 "news:t:arsenal double winner storey dies aged 81": 1794939152.6275616,
@@ -177,6 +181,7 @@
 "news:t:arsenal target nusa could cost 66m  sundays gossip": 1794725817.3333426,
 "news:t:aston villa beat birmingham in wsl derby": 1794773321.8332536,
 "news:t:barcelona target man utds martinez  fridays gossip": 1795128860.5388427,
+"news:t:bayern munich confirm harry kane out for next few months with ankle injury": 1795226321.1993756,
 "news:t:belief and bench steer northern ireland into nations league top tier": 1794964119.7336156,
 "news:t:bellamy convinced of wales credentials despite defeat by portugal": 1794964118.243496,
 "news:t:best ive seen live watch as player scores special goal": 1795067879.293076,
@@ -188,6 +193,7 @@
 "news:t:chelsea v manchester city womens super league  live": 1794670488.5625615,
 "news:t:clinical norway dent wales nations league toptier hopes with victory in oslo": 1794687950.7629306,
 "news:t:clubs first match since players death abandoned because of serious injury": 1794753361.9744396,
+"news:t:cost of man utd hiring and firing managers nears 100m": 1795226324.5973043,
 "news:t:culture defence fernandes  pochettinos priorities at man utd": 1795102373.203534,
 "news:t:danny kelly obituary": 1794939154.3794036,
 "news:t:de la fuente feels the strain as lamine yamal club v country debate rages in spa": 1794645433.54799,
@@ -199,6 +205,7 @@
 "news:t:euro leagues": 1795067877.923717,
 "news:t:fan found not guilty of racially abusing semenyo": 1795177863.388118,
 "news:t:ferguson made up with first win as glentoran boss": 1794620082.7426145,
+"news:t:first defeat and first red for ferguson as glentoran falter": 1795226322.5677464,
 "news:t:fitness obsessed  control freak  what can man utd expect from pochettino": 1794620081.0516753,
 "news:t:five return for wales world cup playoff final": 1795102370.7829554,
 "news:t:football daily": 1794589305.754727,
@@ -245,6 +252,7 @@
 "news:t:portugal did the extraordinary with cristiano ronaldo can they do it without him": 1794645430.6910357,
 "news:t:premier league 10 things to look out for this weekend": 1795146723.6386213,
 "news:t:premier league clubs to cover legal costs if man city sponsors sue": 1795102369.0435967,
+"news:t:premier league news moyes demands more from grealish iraola wary of united threa": 1795226318.7941427,
 "news:t:raphinha sees red as brazil stunned by japan while argentinas postmessi era star": 1794670483.342364,
 "news:t:republic of ireland talisman parrott caps dream year with two more goals": 1794964114.8312995,
 "news:t:respect exposure why englands star names are going abroad": 1794725820.3571773,
@@ -331,7 +339,10 @@
 "555086": 1795067870.7906792,
 "555087": 1795146715.8254123,
 "555088": 1795146715.8254097,
-"555089": 1795146715.8254058
+"555089": 1795146715.8254058,
+"559622": 1795226312.3320692,
+"564748": 1795226312.332071,
+"565859": 1795226312.3320658
 },
 "weekend": {
 "2026-11-21": 1795202172.431463
